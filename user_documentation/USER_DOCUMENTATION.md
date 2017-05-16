@@ -117,7 +117,7 @@ Ingest allows you to create a Digital Object, and associate it with the Archival
 
 Column | Value | Default | Comment
 -------|-------|---------|---------
-Digital Object Title| String | If no Digital Object Title is provided, display header string of the parent Archival Object will be used.|
+Digital Object Title| String || If no Digital Object Title is provided, the display header string of the parent Archival Object will be used.
 URL of Linked-out digital object| URL String ||  this becomes the File Version with the **actuate_attribute** set to "onRequest" and the **show_attribute** set to "new"
 URL of thumbnail| URL String ||  if defined, this becomes the File version with the **actuate_attribute** set to "onLoad", the **show_attribute** set to "embed", and the "is representative" flag is set to TRUE.
 
